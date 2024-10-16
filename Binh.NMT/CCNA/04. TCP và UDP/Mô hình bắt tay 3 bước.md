@@ -2,6 +2,7 @@
 Quá trình bắt tay 3 bước sử dụng SYN và ACK có sẵn trong TCP giúp hoàn thiện kết nối trước khi truyền. Mỗi TCP segment sẽ mang theo dữ liệu với sự trợ giúp từ các TCP flag options, cho phép bên gửi và bên nhận chỉ ra cờ nên được sử dụng để các Segment xử lý một cách chính xác ở bên kia. 
 ![](https://camo.githubusercontent.com/5322384943e827a6b84da2c2792c0893149e608edca27f2114d22f27fb215a66/687474703a2f2f332e62702e626c6f6773706f742e636f6d2f2d466b5848684a4f625563302f55635a6537626a754d56492f41414141414141414149342f366d5948794134346f42452f73313630302f7463702d616e616c797369732d73656374696f6e2d342d312e676966)
 
+
 Với tất cả các cờ, giá trị bằng "1" tương ứng với cờ đấy đang được bật. Trong hình cho thấy cờ SYN đang được bật, tương ứng với đây là segment đầu tiên của một kết nối TCP mới. Mỗi cờ có độ dài 1 bit và có 6 cờ tất cả nên TCP flags có tổng độ dài là 6 bits. Trong đó 3 cờ phổ biến là SYN, ACK và FIN lần lượt dùng để thiết lập kết nối, báo nhận thành công và kết thúc kết nối.
 ## TCP flag options
 - **Cờ đầu tiên: Urgent Pointer.** Cờ này để xác định dữ liệu đến là "khẩn cấp" tức là nâng độ ưu tiên của Segment. Những Segment có cờ Urgent Pointer được bật không phải chờ đợi cho đến khi các Segment trước đó được xử lý mà được gửi trực tiếp và xử lý ngay lập tức.
