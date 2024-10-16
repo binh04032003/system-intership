@@ -1,5 +1,5 @@
 # Tổng quan
-TCP và UDP là hai giao thức ở lớp chuyển tiếp
+TCP và UDP là hai giao thức ở lớp chuyển tiếp.
 # 1. TCP (Transmission Control Protocol) - Giao thức điều khiển truyền vận 
 
 Khái niệm:
