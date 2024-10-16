@@ -14,8 +14,7 @@ Quá trình bắt tay 3 bước:
   - Bước 1: Client sẽ gửi yêu cầu kết nối tới máy chủ
   - Bước 2: Server nhận được yêu cầu và gửi trả lại gói tin SYN/ACK để xác nhận kết nối
   - Bước 3: Client sẽ gửi lại dữ liệu hồi âm
-Đặc điểm:
-- 
+
 Ưu điểm:
 - Truyền dữ liệu theo đúng thứ tự, chính xác.
 - Không mất dữ liệu, độ tin cậy cao.
