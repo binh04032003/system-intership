@@ -18,7 +18,7 @@ Khi một switch được cấu hình thành các VLAN riêng biệt, mỗi VLAN
 ```
 
 # Cách hoạt động của VLAN
-![](https://static-xf1.vietnix.vn/wp-content/uploads/2024/04/vlan-hoat-dong-nhu-the-nao.webp)
+Binh.NMT/CCNA/06. VLAN/images/Cách hoạt động của VLAN.png
 
 VLAN hoạt động bằng cách đánh dấu các khung Ethernet với một mã VLAN (VLAN ID). Mã VLAN này xác định VLAN mà khung Ethernet thuộc về. Khi một thiết bị gửi khung Ethernet, chúng sẽ thêm mã VLAN vào khung. Khi khung Ethernet đến bộ chuyển mạch, bộ chuyển mạch sẽ đọc mã VLAN và chuyển khung đến cổng tương ứng với VLAN đó.
 
