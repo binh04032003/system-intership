@@ -13,9 +13,9 @@
 - Nếu không có mạng Virtual LAN, một broadcast được gửi từ host có thể dễ dàng đi đến mọi thiết bị mạng. Khi đó, tất cả thiết bị đều sẽ xử lý những frame đã nhận broadcast đó. Việc này sẽ làm tăng đáng kể chi phí cho CPU trên mỗi thiết bị, đồng thời làm giảm khả năng bảo mật của hệ thống.
 
 - Nếu ta đặt các interface trên các switch ở những VLAN riêng biệt, một broadcast từ host A chỉ có thể đi đến các thiết bị khả dụng ở trong cùng một Virtual LAN. Các host của Virtual LAN sẽ không hề biết về cách thức giao tiếp.
-```
-Khi một switch được cấu hình thành các VLAN riêng biệt, mỗi VLAN hoạt động như một mạng LAN độc lập. Gói tin broadcast từ một thiết bị chỉ truyền trong phạm vi VLAN của thiết bị đó và không lan ra các VLAN khác. Điều này giúp chia nhỏ mạng thành các phân đoạn, giảm lưu lượng không cần thiết, tăng cường bảo mật và kiểm soát dễ dàng hơn. Các thiết bị trong cùng một VLAN giao tiếp với nhau mà không cần phải hiểu về việc có nhiều VLAN tồn tại, vì chúng hoạt động như thể nằm trong cùng một mạng LAN thông thường.
-```
+
+- Khi một switch được cấu hình thành các VLAN riêng biệt, mỗi VLAN hoạt động như một mạng LAN độc lập. Gói tin broadcast từ một thiết bị chỉ truyền trong phạm vi VLAN của thiết bị đó và không lan ra các VLAN khác. Điều này giúp chia nhỏ mạng thành các phân đoạn, giảm lưu lượng không cần thiết, tăng cường bảo mật và kiểm soát dễ dàng hơn. Các thiết bị trong cùng một VLAN giao tiếp với nhau mà không cần phải hiểu về việc có nhiều VLAN tồn tại, vì chúng hoạt động như thể nằm trong cùng một mạng LAN thông thường.
+
 
 # 2. Cách hoạt động của VLAN
 ![](../imgs/Cách%20hoạt%20động%20của%20VLAN.png)
