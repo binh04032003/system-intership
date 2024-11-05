@@ -71,10 +71,6 @@ Khái niệm:
 - Không đảm bảo độ tin cậy khi truyền dữ liệu (không quan tâm đến gói tin đến đích hay không).
 - Không có cơ chế phục hồi dữ liệu (không biết gói tin có bị mất mát trên đường đi hay không).
 
-Ưu điểm:
-- Nhanh (do không kiểm soát tốc độ gửi, chấp nhận mất mát dữ liệu nhưng đòi lại phải có một tốc độ truyền tốt thiểu).
-- Hiệu quả đối với các gói tin kích thước nhỏ và yêu cầu khắt khe về thời gian.
-
 Nhược điểm:
 - UDP không thực hiện quá trình bắt tay 3 bước giữa bên gửi và bên nhận, vì thế bên gửi sẽ không biết được datagram đã đến đích hay chưa. 
 
