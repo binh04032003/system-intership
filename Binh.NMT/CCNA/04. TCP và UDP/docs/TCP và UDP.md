@@ -21,7 +21,9 @@ Nhược điểm:
 - Không đáp ứng được yêu cầu về thời gian thực
 
 **/Notes**
+
 TCP không phù hợp với ứng dụng yêu cầu về thời gian thực vì TCP cần có quá trình thiết lập kết nối trước, cơ chế đảm bảo tính toàn vẹn dữ liệu và điều khiển tắc nghẽn mạng dẫn tới có thể gây ra độ trễ lớn.
+
 **/EndNotes**
 
 Ứng dụng sử dụng TCP:
@@ -96,7 +98,9 @@ Checksum (2 bytes)
   - **Checksum:** Tương tự như TCP, tổng kiểm tra UDP cho phép người nhận kiểm tra chéo dữ liệu đến cho bất kỳ bit bị hỏng nào của tin nhắn.
 
 **/Notes**
+
 UDP được sử dụng hiệu quả trong các ứng dụng đáp ứng yêu cầu về thời gian thực vì UDP không yêu cầu xác nhận, không có cơ chế kiểm soát tắc nghẽn và không phải thiết lập kết nối, dẫn đến độ trễ thấp hơn phù hợp với thời gian thực.
+
 **/EndNotes**
 # 3. Sự khác biệt giữa TCP và UDP
 - TCP là giao thức hướng kết nối (connection-oriented) nên các phiên được duy trì giữa các host. Trong khi UDP là giao thức connectionless nên không hỗ trợ bất kỳ phiên nào.
