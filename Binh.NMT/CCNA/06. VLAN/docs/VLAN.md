@@ -16,6 +16,14 @@
 
 - Khi một switch được cấu hình thành các VLAN riêng biệt, mỗi VLAN hoạt động như một mạng LAN độc lập. Gói tin broadcast từ một thiết bị chỉ truyền trong phạm vi VLAN của thiết bị đó và không lan ra các VLAN khác. Điều này giúp chia nhỏ mạng thành các phân đoạn, giảm lưu lượng không cần thiết, tăng cường bảo mật và kiểm soát dễ dàng hơn. Các thiết bị trong cùng một VLAN giao tiếp với nhau mà không cần phải hiểu về việc có nhiều VLAN tồn tại, vì chúng hoạt động như thể nằm trong cùng một mạng LAN thông thường.
 
+**/Notes**
+- Nếu một hệ thống mạng không được chia VLAN sẽ xảy ra một số vấn đề sau:
+   - Một miền lỗi không thể giới hạn được
+   - Vấn đề về bảo mật
+   - Miền quảng bá quá lớn dẫn đến
+  - Việc chia VLAN sẽ giúp cho hệ thống mạng đảm bảo được một số tính năng như: phân mảnh mạng, linh hoạt trong việc thiết kế và bảo mật.
+  
+
 
 # 2. Cách hoạt động của VLAN
 ![](../imgs/Cách%20hoạt%20động%20của%20VLAN.png)
