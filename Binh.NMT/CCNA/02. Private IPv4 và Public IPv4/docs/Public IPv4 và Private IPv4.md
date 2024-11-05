@@ -54,7 +54,7 @@ Public IP là địa chỉ IP thực được dùng trên môi trường Interne
 
 **/EndNotes**
 
-Một public IP có thể là tĩnh (static) hoặc động (dynamic) tùy theo loại dịch vụ của người dùng. Một địa chỉ public IP tĩnh không thay đổi và thường được dùng cho hosting các trang web, hoặc dịch vụ trên Internet. Các địa chỉ động được chọn từ một "hồ chứa" các địa chỉ có sẵn và thay đổi mỗi lần người dùng kết nối đến Internet.
+Một public IP có thể là tĩnh (static) hoặc động (dynamic) tùy theo loại dịch vụ của người dùng. Một địa chỉ public IP tĩnh không thay đổi và thường được dùng cho hosting các trang web, hoặc dịch vụ trên Internet. Các địa chỉ động được thay đổi mỗi lần người dùng kết nối đến Internet.
 
 # 3. Phân biệt private IP và public IP
 1. Về địa chỉ và phạm vi sử dụng
