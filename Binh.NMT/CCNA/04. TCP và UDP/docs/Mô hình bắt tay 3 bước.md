@@ -31,7 +31,6 @@ Với tất cả các cờ, giá trị bằng "1" tương ứng với cờ đấ
 
 
 # 3. Cách thức hoạt động của quá trình bắt tay 3 bước
-![](../imgs/Three-way%20handshake.jpg)
 
 **/Notes**
 
