@@ -9,7 +9,6 @@ NAT còn hoạt động như một tường lửa, hỗ trợ bảo mật IP c�
 # 3. Một số thuật ngữ dùng trong NAT
 - **Inside Local:** Địa chỉ IP ứng với mỗi thiết bị nằm trong mạng nội bộ nhưng không cung cấp bởi Network Information Center, thường là IP Private.
 - **Inside Global:** Kiểu địa chỉ IP đăng ký tại Network Information Center. Đây là địa chỉ phù hợp để thay thế cho IP Inside local.
-- **Outside Local:** Địa chỉ IP ứng với một thiết bị hoạt động tại mạng bên ngoài. Những thiết bị thuộc mạng mạng bên trong có khả năng tìm thấy thiết bị khác hoạt động bên ngoài nhờ vào địa chỉ IP Outside Local. Địa chỉ IP này không nhất thiết cần đăng ký tại Network Information Center.
 - **Outside Global:** Địa chỉ IP ứng với thiết bị hoạt động tại hệ thống mạng bên ngoài, hoàn toàn hợp lệ với mạng internet.
 # 4. Phân loại NAT
 ## 4.1 Static NAT
@@ -35,11 +34,9 @@ NAT giúp tiết kiểm địa chỉ IPv4.
 
 NAT giúp chia sẻ tài nguyên kết nối Internet cho nhiều thiết bị trong cùng một mạng LAN thông qua một IP Public.
 
-Hỗ trợ quản lý mạng trong quá trình lọc gói tin, xét duyệt quyền truy cập tới bất cứ port nào.
 ## 5.2 Nhược điểm
 NAT khiến công việc CPU thực hiện tăng lên do phải hoạt động liên tục để thay đổi địa chỉ IP. Từ đó, khiến cho độ trễ trong switching tăng, ảnh hưởng đến tốc độ đường truyền mạng.
 
-NAT chưa thể che giấu hoàn toàn địa chỉ IP Private trong mạng LAN, vẫn có thể truy vết địa chỉ IP Private.
 # 6. LAB
 ## 6.1 Static NAT
 
