@@ -64,7 +64,7 @@ Một public IP có thể là tĩnh (static) hoặc động (dynamic) tùy theo 
 2. Về tính khả dụng khi truy cập
 - IP Public: Có thể truy cập từ bất kỳ nơi nào trên Internet. Các dịch vụ hoặc trang web có thể truy cập bằng cách sử dụng địa chỉ IP Public.
 
-- IP Private: Thường không thể truy cập từ bên ngoài mạng LAN. Các địa chỉ IP Private chỉ hoạt động trong phạm vi mạng nội bộ và không thể truy cập từ Internet.
+- IP Private: IP Private cần có sự hỗ trợ từ NAT để có thể truy cập vào Internet dưới dạng địa chỉ IP Public. 
 3. Về tính bảo mật
 - IP Public: Do có thể truy cập từ Internet nên tiềm ẩn nguy cơ bị tấn công mạng cao hơn.
 
