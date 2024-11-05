@@ -32,8 +32,10 @@ Với tất cả các cờ, giá trị bằng "1" tương ứng với cờ đấ
 
 # 3. Cách thức hoạt động của quá trình bắt tay 3 bước
 
-**/Notes**
+![](../imgs/image3-1.jpeg)
 
- 
+Bước 1: Client yêu cầu mở cổng dịch vụ bằng cách gửi gói tin SYN (gói tin TCP) tới server, trong gói tin này, tham số sequence number được gán cho một giá trị ngẫu nhiên X.
 
-**/EndNotes**
+Bước 2: Server hồi đáp bằng cách gửi lại phía client bản tin SYN-ACK, trong gói tin này, tham số acknowledgment number được gán giá trị bằng X + 1, tham số sequence number được gán ngẫu nhiên một giá trị Y.
+
+Bước 3: Để hoàn tất quá trình bắt tay ba bước, client tiếp tục gửi tới server bản tin ACK, trong bản tin này, tham số sequence number được gán cho giá trị bằng X + 1 còn tham số acknowledgment number được gán giá trị bằng Y + 1.
