@@ -59,6 +59,7 @@ Chi tiết về các bước mà VLAN hoạt động:
 - Static VLAN: Một loại VLAN tĩnh, được phân chia theo cổng.
 - Dynamic VLAN: Được phân chia theo địa chỉ MAC.
 - Voice VLAN: VLAN chỉ dành riêng cho loại dữ liệu voice.
+  
 **/EndNotes**
 
 # 4. Ứng dụng của VLAN
