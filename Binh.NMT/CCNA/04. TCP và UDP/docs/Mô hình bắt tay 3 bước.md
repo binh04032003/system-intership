@@ -35,10 +35,10 @@ Với tất cả các cờ, giá trị bằng "1" tương ứng với cờ đấ
 
 **/Notes**
 
-Bước 1: Máy A muốn truyền dữ liệu qua máy B, trước tiên sẽ gửi một gói tin mà trong đó cờ SYN trong TCP header sẽ được bật lên để yêu cầu kết nối
+Bước 1: Máy A muốn truyền dữ liệu qua máy B, trước tiên sẽ gửi một gói tin mà trong đó cờ SYN trong TCP header sẽ được bật lên để yêu cầu kết nối.
 
-Bước 2: Máy B nhận được gói tin sẽ gửi lại gói tin trong đó cờ SYN và cờ ACK được bật để xác nhận yêu cầu kết nối thành công
+Bước 2: Máy B nhận được gói tin sẽ gửi lại gói tin trong đó cờ SYN và cờ ACK được bật để yêu cầu kết nối đến máy A và xác nhận yêu cầu kết nối của máy A đã được nhận.
 
-Bước 3: Máy A ban đầu sẽ gửi lại gói tin trong đó cờ ACK được bật để báo nhận với máy B 
+Bước 3: Máy A ban đầu sẽ gửi lại gói tin trong đó cờ ACK được bật để báo nhận với máy B, hoàn tiết thiết lập kết nối bằng quá trình bắt tay 3 bước. 
 
 **/EndNotes**
