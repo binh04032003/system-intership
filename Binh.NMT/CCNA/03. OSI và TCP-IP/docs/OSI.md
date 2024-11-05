@@ -19,19 +19,32 @@ Lớp liên kết dữ liệu sẽ định dạng các thông điệp vào khung
 
 Lớp liên kết dữ liệu được chia thành hai lớp con là LLC (Logical Link Control) và MAC (Media Access Control). Trong đó:
    - LLC sẽ thực hiện các chức năng như kiểm soát lỗi, điều khiển luồng, quản lý giao tiếp giữa các thiết bị mạng.
-   - MAC sẽ được dùng để làm địa chỉ trong quá trình truyền gửi dữ liệu.
+   - MAC sẽ được dùng để làm địa chỉ trong quá trình truyền gửi dữ liệu. Địa chỉ MAC dùng để giao tiếp giữa các thiết bị trong cùng một mạng nội bộ.
 #### 2.2.3 Lớp mạng - Network Layer
 Lớp mạng sẽ cung cấp kết nối giữa các thiết bị không nằm trong cùng một mạng cục bộ sử dụng giao thức IP.
 
 Lớp mạng sẽ đưa ra các lựa chọn đường đi giữa điểm gửi (source) và điểm nhận (destination) - định tuyến và đưa ra sự lựa chọn tối ưu nhất.
+
+Phân bố dữ liệu từ điểm này đến điểm kia tối ưu nhất.
+
+Cung cấp địa chỉ logic IP.
 #### 2.2.4 Lớp vận chuyển - Transport Layer
 Đảm bảo dữ liệu sẽ được được truyền đi không có lỗi, đúng thứ tự và không bị mất mát hay trùng lặp.
+
+Quản lý các kết nối đầu cuối giữa các thiết bị (end-to-end connection). 
+
+Thiết lập, duy trì và ngắt các đường thiết lập kết nối ảo.
+
+Cung cấp cơ chế sửa lỗi, dò lỗi và phục hồi thông tin điều khiển luồng.
+
 #### 2.2.5 Lớp phiên - Session Layer
 Điều khiển phiên liên lạc giữa các thiết bị, thiết lập, duy trì và kết thúc kết nối.
 #### 2.2.6 Lớp trình bày - Presentation Layer
 Lớp giao vận sẽ đảm nhiệm nhiệm vụ thông ngôn, đảm bảo dữ liệu gửi từ đầu này có thể đọc được ở đầu kia.
 
 Định dạng dữ liệu, cung cấp các cơ chế mã hóa đối với truyền dữ liệu và giải mã đối đối với việc nhận dữ liệu.
+
+Cung cấp cơ chế mã hóa.
 #### 2.2.7 Lớp ứng dụng - Application Layer
 Giao tiếp trực tiếp đối với người dùng, cung cấp các phương tiện cho người dùng truy nhập các thông tin và dữ liệu trên mạng. 
 ## 3. Workflow của mô hình OSI
