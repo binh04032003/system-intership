@@ -34,7 +34,7 @@ Với tất cả các cờ, giá trị bằng "1" tương ứng với cờ đấ
 
 ![](../imgs/image3-1.jpeg)
 
-Bước 1: Client yêu cầu mở cổng dịch vụ bằng cách gửi gói tin SYN (gói tin TCP) tới server, trong gói tin này, tham số sequence number được gán cho một giá trị ngẫu nhiên X.
+Bước 1: Client yêu cầu mở cổng dịch vụ bằng cách gửi gói tin SYN (gói tin TCP) tới server, trong gói tin này, tham số sequence number được gán cho một giá trị ngẫu nhiên X. Sequence number là giá trị để đánh dấu thứ tự các gói tin.
 
 Bước 2: Server hồi đáp bằng cách gửi lại phía client bản tin SYN-ACK, trong gói tin này, tham số acknowledgment number được gán giá trị bằng X + 1, tham số sequence number được gán ngẫu nhiên một giá trị Y.
 
