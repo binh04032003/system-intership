@@ -33,9 +33,7 @@ Có 3 dãy IP ở class A, class B và class C được IANA dùng để đánh 
 - Public IP Range: 192.0.0.0 to 223.255.255.0
 - Private IP Range: 192.168.0.0 to 192.168.255.255
 - Special IP Range: 127.0.0.1 to 127.255.255.255 
-```
-IP Range: 127.0.0.1 to 127.255.255.255 are network testing addresses (also referred to as loop-back addresses). These are virtual IP address, in that they cannot be assigned to a device. Specifically, the IP 127.0.0.1 is often used to troubleshoot network connectivity issues using the ping command. Specifically, it tests a computer's TCP/IP network software driver to ensure it is working properly.
-```
+
 - Subnet Mask: 255.255.255.0 (24 bits)
 - Number of Networks: 2,097,150
 - Number of Hosts per Network: 254
