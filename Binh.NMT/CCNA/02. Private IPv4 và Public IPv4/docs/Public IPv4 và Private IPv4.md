@@ -3,6 +3,9 @@
 
 Private IP là các địa chỉ được cấp phát bởi InterNIC cho phép các công ty, tổ chức có thể tạo cho họ một mạng cục bộ riêng. 
 
+**/Notes**
+Private IP là dải địa chỉ IP chỉ được dùng cho các mạng LAN, được quyền sử dụng ở nhiều doanh nghiệp khác nhau.
+
 Có 3 dãy IP ở class A, class B và class C được IANA dùng để đánh địa chỉ private IP:
 
 ![](../imgs/Capture.PNG)
@@ -26,8 +29,6 @@ Có 3 dãy IP ở class A, class B và class C được IANA dùng để đánh 
 - Private IP Range: 192.168.0.0 to 192.168.255.255
 - Special IP Range: 127.0.0.1 to 127.255.255.255 
 ```
-IP Range: 127.0.0.1 to 127.255.255.255 are network testing addresses (also referred to as loop-back addresses). These are virtual IP address, in that they cannot be assigned to a device. Specifically, the IP 127.0.0.1 is often used to troubleshoot network connectivity issues using the ping command. Specifically, it tests a computer's TCP/IP network software driver to ensure it is working properly.
-```
 - Subnet Mask: 255.255.255.0 (24 bits)
 - Number of Networks: 2,097,150
 - Number of Hosts per Network: 254
@@ -39,6 +40,10 @@ Các loại địa chỉ IP Private phổ biến bao gồm 192.168.x.x, 172.16.x
 =>> Để đánh địa chỉ IP cho các thiết bị trong mạng cục bộ, để những thiết bị trong mạng cục bộ đấy có thể kết nối với nhau mà không cần thông qua Internet. Giúp việc quản lý mạng nội bộ dễ dàng hơn, cho phép phân chia mạng thành các nhóm nhỏ, thiết lập quy tắc truy cập và giám sát lưu lượng truy cập hiệu quả.
 
 # 2. Public IP là gì? Chức năng?
+
+**/Notes**
+Public IP là địa chỉ IP thực được dùng trên môi trường Internet và định tuyến toàn cầu.
+
 
 Public IP là địa chỉ được ISP cấp và có thể được nhìn thấy và truy cập từ Internet.
 
