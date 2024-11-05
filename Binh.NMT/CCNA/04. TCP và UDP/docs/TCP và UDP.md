@@ -8,12 +8,7 @@ Khái niệm:
 - Cung cấp cơ chế đánh số gói tin (sequencing), để ráp các gói tin cho đúng ở điểm nhận.
 - Cung cấp cơ chế báo nhận (acknowledgement), khi bên A gửi dữ liệu qua bên B, khi bên B nhận được sẽ gửi gói tin xác nhận là đã nhận. 
 - Phục hồi dữ liệu bị mất trên đường truyền, bên A sẽ gửi lại cho bên B nếu chưa nhận được tin xác nhận.
-
-Quá trình bắt tay 3 bước:
 - Đối với giao thức TCP, trước khi truyền dữ liệu sẽ thiết lập kết nối bằng quá trình bắt tay 3 bước (Three-way handshake):
-  - Bước 1: Client sẽ gửi yêu cầu kết nối tới máy chủ
-  - Bước 2: Server nhận được yêu cầu và gửi trả lại gói tin SYN/ACK để xác nhận kết nối
-  - Bước 3: Client sẽ gửi lại dữ liệu hồi âm
 
 Ưu điểm:
 - Truyền dữ liệu theo đúng thứ tự, chính xác.
