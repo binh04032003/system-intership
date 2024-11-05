@@ -35,8 +35,7 @@ NAT giúp tiết kiểm địa chỉ IPv4.
 NAT giúp chia sẻ tài nguyên kết nối Internet cho nhiều thiết bị trong cùng một mạng LAN thông qua một IP Public.
 
 ## 5.2 Nhược điểm
-NAT khiến công việc CPU thực hiện tăng lên do phải hoạt động liên tục để thay đổi địa chỉ IP. Từ đó, khiến cho độ trễ trong switching tăng, ảnh hưởng đến tốc độ đường truyền mạng.
-
+NAT khiến công việc CPU thực hiện tăng lên do phải hoạt động liên tục để thay đổi địa chỉ IP. 
 # 6. LAB
 ## 6.1 Static NAT
 
