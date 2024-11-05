@@ -25,6 +25,8 @@
 - Việc chia VLAN sẽ giúp cho hệ thống mạng đảm bảo được một số tính năng như: phân mảnh mạng, linh hoạt trong việc thiết kế và bảo mật.
 - Các lưu lượng mạng đi qua một hệ thống mạng: lưu lượng quản lý mạng, voice over IP (dữ liệu thời gian thực), IP Multicast (xem truyền hình theo yêu cầu), dữ liệu lướt web, email,....Các broadcast domain được tạo ra để phân biệt và đối xử đối với các loại dữ liệu này, để ưu tiên một số loại dữ liệu được truyền đi trước tránh nghẽn mạng. VLAN là một công cụ để chia broadcast domain.
 - VLAN là mạng LAN ảo, hay có thể gọi là một broadcast domain.
+
+**/EndNotes**
   
 
 
@@ -56,7 +58,8 @@ Chi tiết về các bước mà VLAN hoạt động:
 **/Notes**
 - Static VLAN: Một loại VLAN tĩnh, được phân chia theo cổng.
 - Dynamic VLAN: Được phân chia theo địa chỉ MAC.
-- Voice VLAN: VLAN chỉ dành riêng cho loại dữ liệu voice. 
+- Voice VLAN: VLAN chỉ dành riêng cho loại dữ liệu voice.
+**/EndNotes**
 
 # 4. Ứng dụng của VLAN
 Một số ứng dụng cơ bản của VLAN:
