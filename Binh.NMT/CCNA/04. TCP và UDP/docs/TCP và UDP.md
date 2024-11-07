@@ -103,8 +103,8 @@ UDP được sử dụng hiệu quả trong các ứng dụng đáp ứng yêu c
 
 **/EndNotes**
 # 3. Sự khác biệt giữa TCP và UDP
-- TCP là giao thức hướng kết nối (connection-oriented) nên các phiên được duy trì giữa các host. Trong khi UDP là giao thức connectionless nên không hỗ trợ bất kỳ phiên nào.
+- TCP là giao thức hướng kết nối (connection-oriented) trong khi UDP là giao thức connectionless.
 - Về độ tin cậy, UDP không đảm bảo rằng chỉ có một bản sao dữ liệu tới đích. Để gửi dữ liệu tới các hệ thống cuối, UDP phân chia dữ liệu thành các đoạn nhỏ. UDP không đảm bảo rằng các đoạn này sẽ đến đích đúng thứ tự như chúng đã được tạo ra ở nguồn. Ngược lại, TCP sử dụng các số thứ tự cùng với số hiệu cổng và các gói tin xác thực thường xuyên, điều này đảm bảo rằng các gói tin đến đích đúng thứ tự mà nó đã được tạo ra.
-- Về kiểm soát luồng, UDP không có kiểm soát luồng; kết quả là, một ứng dụng UDP được thiết kế tồi có thể làm giảm băng thông của mạng.
+
 
 ![](../imgs/So%20sánh%20TCP%20và%20UDP.png)
