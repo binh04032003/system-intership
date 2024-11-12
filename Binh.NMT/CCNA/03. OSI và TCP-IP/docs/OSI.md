@@ -61,6 +61,7 @@ Cung cấp cơ chế mã hóa.
 #### 2.2.7 Lớp ứng dụng - Application Layer
 
 Giao tiếp trực tiếp đối với người dùng, cung cấp các phương tiện cho người dùng truy nhập các thông tin và dữ liệu trên mạng.
+
 ![](../docs/OSI.md)
 ## 3. Workflow của OSI
 
@@ -81,4 +82,5 @@ Giao tiếp trực tiếp đối với người dùng, cung cấp các phương 
    - Lớp phiên: Đảm bảo các dữ liệu trong gói tin nhận được toàn vẹn. Tiến hành gỡ bỏ header của lớp phiên và tiếp tục gửi lên lớp trên.
    - Lớp trình bày: Xử lý gói tin bằng cách chuyển đối các định dạng dữ liệu cho phù hợp. Sau khi hoàn thành sẽ tiến hành gửi lên lớp ứng dụng.
    - Lớp ứng dụng: Tiến hành xử lý và gỡ bỏ header cuối cùng. Khi đó ở máy nhận sẽ nhận được dữ liệu của gói tin được truyền đi.
+     
 ![](../imgs/Workflow_OSI.png)
