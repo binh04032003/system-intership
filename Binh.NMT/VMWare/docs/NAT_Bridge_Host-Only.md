@@ -42,6 +42,7 @@ Khi cài đặt VMware Workstation, chế độ mạng Host-Only sẽ được g
 Trong host-only network, máy ảo và network adapter ảo của máy chủ và sẽ kết nối đến một mạng Ethernet private. Mạng host-only chỉ có khả năng hoạt động giữa các máy ảo với nhau và với máy chủ, và nằm hoàn toàn trong host system. 
 
 Kết nối giữa máy ảo và máy chủ thông qua một virtual network adapter hiệu dụng trên hệ điều hành của máy chủ. Một DHCP Server sẽ đảm nhiệm vai trò cung cấp địa chỉ IP trong host-only network.
+
 ![](../imgs/Host-Only_Network.png)
 # 5. Sử dụng chế độ mạng NAT cho các máy ảo để truy cập internet
 ## 5.1 Windows
