@@ -34,6 +34,7 @@ Trong mạng Bridged, thiết bị adapter của máy ảo sẽ kết nối đ�
 
 Mạng bridged cấu hình máy ảo với một địa chỉ IP riêng biệt, độc lập so với máy chủ và sẽ được nhận diện là một thiết bị độc lập. 
 
+
 ![](../imgs/Bridged%20Networking.png)
 # 4. Host-Only Network
 Khi cài đặt VMware Workstation, chế độ mạng Host-Only sẽ được gắn với VMnet1. 
