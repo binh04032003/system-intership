@@ -1,11 +1,11 @@
 
-# 1 Khái niệm
+# 1. Khái niệm
 SSH viết tắt là Secure Shell, là một giao thức mạng được thiết kế để thiết lập kết nối an toàn giữa máy tính và máy chủ, cho phép truy cập và quản lý máy tính từ xa một cách an toàn. SSH sử dụng cơ chế mã hóa dữ liệu truyền tải, bảo vệ thông tin đăng nhập và ngăn chặn các truy cập trái phép. 
 
 SSH cung cấp khả năng xác thực danh tính, ngăn chặn tình trạng mạo danh, đảm bảo chỉ những người có quyền mới có thể truy cập vào hệ thống. Thông qua việc sử dụng cặp khóa công khai và khóa riêng tư, SSH tạo ra một kênh bảo mật cho việc truyền tải dữ liệu giữa máy tính và máy chủ.
 
 ![](../imgs/3.png)
-# 2 Cơ chế hoạt động
+# 2. Cơ chế hoạt động
 SSH sử dụng mô hình client-server, để thiết lập kết nối SSH cả 2 phía phải thiết lập kết nối TCP trước. Trong quá trình đó sẽ thực hiện trao đổi về phiên bản của giao thức SSH ở 2 máy, các thuật toán sẽ sử dụng và tạo ra một khóa phiên để mã hóa đối xứng cho phiên làm việc.
 
 ![](../imgs/2.png)
@@ -48,12 +48,12 @@ SSH sử dụng mô hình client-server, để thiết lập kết nối SSH c�
 - Session Request: Sau khi xác thực thành công, máy khách SSH gửi một yêu cầu phiên (session request) đến máy chủ, yêu cầu máy chủ cung cấp một loại dịch vụ nhất định. Điều này có nghĩa là máy khách SSH yêu cầu thiết lập một phiên làm việc với máy chủ, và sau đó máy chủ sẽ phản hồi yêu cầu từ máy khách.
 
 - Session Interaction: Sau khi một phiên làm việc được thiết lập, máy chủ và máy khách SSH trao đổi dữ liệu thông qua phiên này. Dữ liệu được gửi bởi máy chủ và máy khách SSH được mã hóa và giải mã bằng khóa phiên.
-# 3 Quá trình hoạt động
+# 3. Quá trình hoạt động
 - **Thiết lập kết nối:** máy khách SSH gửi yêu cầu kết nối tới máy chủ SSH.
 - **Xác thực:** Máy chủ SSH xác thực danh tính của máy khách SSH bằng mật khẩu hoặc khóa SSH.
 - **Mã hóa dữ liệu:** Sau khi xác thực thành công, tất cả dữ liệu được truyền giữa hai máy được mã hóa để bảo mật.
 - **Quản lý kết nối:** Người dùng có thể thực hiện các thao tác quản lý máy chủ từ xa như chạy lệnh, truyền tập tin, cấu hình hệ thống.
-# 4 Chức năng
+# 4. Chức năng
 - SSH cho phép quản trị viên hệ thống truy cập và thực hiện các thao tác quản lý trên máy chủ từ xa như cài đặt phần mềm, cấu hình hệ thống, sửa lỗi,...
 - SSH cũng được sử dụng để triển khai phần mềm tự động từ xa, giúp tăng tốc độ và hiệu quả của quá trình triển khai.
 - SSH có thể được sử dụng để thiết lập VPN, giúp kết nối an toàn qua mạng internet công cộng.
