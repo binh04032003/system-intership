@@ -1,6 +1,6 @@
 
 # 1. Khái niệm
-SSH viết tắt là Secure Shell, là một giao thức mạng được thiết kế để thiết lập kết nối an toàn giữa máy tính và máy chủ, cho phép truy cập và quản lý máy tính từ xa một cách an toàn. SSH sử dụng cơ chế mã hóa dữ liệu truyền tải, bảo vệ thông tin đăng nhập và ngăn chặn các truy cập trái phép. 
+SSH viết tắt của Secure Shell, là một giao thức mạng được thiết kế để thiết lập kết nối an toàn giữa máy tính và máy chủ, cho phép truy cập và quản lý máy tính từ xa một cách an toàn. SSH sử dụng cơ chế mã hóa dữ liệu truyền tải, bảo vệ thông tin đăng nhập và ngăn chặn các truy cập trái phép. 
 
 SSH cung cấp khả năng xác thực danh tính, ngăn chặn tình trạng mạo danh, đảm bảo chỉ những người có quyền mới có thể truy cập vào hệ thống. Thông qua việc sử dụng cặp khóa công khai và khóa riêng tư, SSH tạo ra một kênh bảo mật cho việc truyền tải dữ liệu giữa máy tính và máy chủ.
 
